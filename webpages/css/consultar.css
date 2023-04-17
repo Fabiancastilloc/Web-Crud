@@ -1,0 +1,88 @@
+/* Estilo de la página */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Título de la página */
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Formulario de búsqueda */
+form {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+label {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #0f3da8;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+input[type="submit"]:hover {
+	background-color: #1591aa;
+}
+
+/* Tabla de resultados */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #0d3875;
+	color: #fff;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/* Botón de eliminar */
+.eliminar-btn {
+	background-color: #f44336;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.eliminar-btn:hover {
+	background-color: #d32f2f;
+}

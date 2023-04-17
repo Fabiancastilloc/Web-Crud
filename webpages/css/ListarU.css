@@ -1,0 +1,37 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  th,
+  td {
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos para el encabezado */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Estilos para la tipografía */
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Estilos adicionales */
+  /* Añade aquí cualquier otro estilo que desees para personalizar aún más la apariencia del HTML */
+  
